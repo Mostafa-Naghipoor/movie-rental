@@ -1,10 +1,10 @@
-import { MouseEvent, useState } from "react";
-
+import { MouseEvent } from "react";
+import { useState } from "react";
 function ListGroup() {
   let items = ["New York", "Tehran", "Tonekabon", "Ramsar", "Vancouver"];
   let selectedItem = 0;
-  useState;
-  const handleClick = (event: MouseEvent) => console.log(event);
+  const [selectedIndex, setSelectedIndex] = useState(-1);
+
   return (
     <>
       <h1> list</h1>

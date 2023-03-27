@@ -1,4 +1,3 @@
-import { MouseEvent } from "react";
 import { useState } from "react";
 function ListGroup() {
   let items = ["New York", "Tehran", "Tonekabon", "Ramsar", "Vancouver"];

@@ -7,7 +7,11 @@ function ListGroup() {
       <h1> list</h1>
       <ul className="list-group">
         {items.map((item, index) => (
-          <li className="list-group-item" key={item} onClick={handleClick}>
+          <li
+            className="list-group-item active"
+            key={item}
+            onClick={handleClick}
+          >
             {item}
           </li>
         ))}

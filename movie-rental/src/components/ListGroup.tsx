@@ -1,3 +1,4 @@
+import { MouseEvent } from "react";
 import { useState } from "react";
 function ListGroup() {
   let items = ["New York", "Tehran", "Tonekabon", "Ramsar", "Vancouver"];
@@ -11,7 +12,7 @@ function ListGroup() {
         {items.map((item, index) => (
           <li
             className={
-              selectedItem === index
+              selectedIndex === index
                 ? "list-group-item active"
                 : "list-group-item"
             }

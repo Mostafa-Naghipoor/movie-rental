@@ -11,7 +11,7 @@ function ListGroup(props: Props) {
     <>
       <h1> list</h1>
       <ul className="list-group">
-        {items.map((item, index) => (
+        {props.items.map((item, index) => (
           <li
             className={
               selectedIndex === index

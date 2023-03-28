@@ -3,7 +3,7 @@ interface Props {
   items: string[];
   heading: string;
 }
-function ListGroup(props: Props) {
+function ListGroup({ items, heading }: Props) {
   let selectedItem = 0;
   const [selectedIndex, setSelectedIndex] = useState(-1);
 
